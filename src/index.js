@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Main from './Main.jsx';
+import Main from './components/Main.jsx';
 
-const title = 'My Minimal React Webpack Babel Setups';
+// have to import every CSS file here
+import './styles/main.css';
+import './styles/header.css';
+import './styles/post.css';
 
 ReactDOM.render(
-  <div>
-  	{title}
+  <div className='main-container'>
   	<Main />
   </div>,
   document.getElementById('app')
