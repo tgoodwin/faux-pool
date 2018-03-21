@@ -1,0 +1,19 @@
+.nav-bar {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #aaa;
+}
+.header {
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	display: inline-block;
+}
+
+.righty {
+	float: right;
+	display: inline-block;
+	font-family: courier;
+	margin-left: 15px;
+}
