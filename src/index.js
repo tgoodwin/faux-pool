@@ -8,10 +8,10 @@ import './styles/header.css';
 import './styles/post.css';
 
 ReactDOM.render(
-  <div className='main-container'>
-  	<Main />
-  </div>,
-  document.getElementById('app')
+    <div>
+        <Main />
+    </div>,
+    document.getElementById('app')
 );
 
 module.hot.accept();
