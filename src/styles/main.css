@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700');
 body {
 	background-color: #fefefe;
 }
@@ -6,12 +6,81 @@ body {
 	margin-right: 20px;
 	margin-left: 20px;
 }
-
-.products {
-	display: block;
+.nav-container {
+	border-top: 1px solid black;
+	margin: 0 auto;
+	width: 300px;
 }
+.page-container {
+	background: none;
+	padding-top: 15px;
+	width: 50%;
+	font-family: 'Open Sans', sans-serif;
+	display: inline;
+	text-align: center;
+}
+.page-container:hover {
+	font-weight: bold;
+}
+.right { float: right; }
+.left { float: left; }
 
+.selected {
+	font-weight: bold;
+	border-top: 5px solid black;
+}
 .section-title {
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 10px;
+}
+.product {
+	margin: 0 auto;
+	padding-top: 100px;
+	width: 300px;
+}
+.product-title {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-style: italic;
+}
+.product-text {
+	margin-bottom: 10px;
+	font-family: 'Open Sans';
+	font-size: 12px;
+	font-weight: 300;
+	color: #aaa;
+}
+img {
+	width: 300px;
+}
+.purchase-btn {
+	background-color: #444;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;
+	text-decoration: none;
+}
+.purchase-btn:hover {
+	background-color: #555;
+}
+.purchase-btn a {
+	color: #fefefe;
+	text-decoration: none;
+	display: block;
+}
+.copyright {
+	padding: 10px;
+	width: 100%;
+	color: #aaa;
+	display: block;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 12px;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
 }

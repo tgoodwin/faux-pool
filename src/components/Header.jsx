@@ -2,12 +2,10 @@ import React from 'react';
 
 class Header extends React.Component {
 	render() {
-		const title = 'FAUX POOL';
+		const title = 'faux pool';
 		return (
 			<div className='nav-bar'>
 				<div className='header'>{title}</div>
-				<div className='righty'>About</div>
-				<div className='righty'>Shop</div>
 			</div>
 		);
 	}
