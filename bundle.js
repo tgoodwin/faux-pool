@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "fffd9fcea6482f7433e9"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "630b1bdb49bc92020872"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -1931,10 +1931,10 @@ module.exports = identity;
 
 exports = module.exports = __webpack_require__(31)(false);
 // imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700);", ""]);
 
 // module
-exports.push([module.i, "body {\n\tbackground-color: #fefefe;\n}\n.main-container {\n\tmargin-right: 20px;\n\tmargin-left: 20px;\n}\n\n.products {\n\tdisplay: block;\n}\n\n.section-title {\n\ttext-align: left;\n\tfont-family: 'Open Sans', sans-serif;\n}", ""]);
+exports.push([module.i, "body {\n\tbackground-color: #fefefe;\n}\n.main-container {\n\tmargin-right: 20px;\n\tmargin-left: 20px;\n}\n.nav-container {\n\tborder-top: 1px solid black;\n\tmargin: 0 auto;\n\twidth: 300px;\n}\n.page-container {\n\tbackground: none;\n\tpadding-top: 15px;\n\twidth: 50%;\n\tfont-family: 'Open Sans', sans-serif;\n\tdisplay: inline;\n\ttext-align: center;\n}\n.page-container:hover {\n\tfont-weight: bold;\n}\n.right { float: right; }\n.left { float: left; }\n\n.selected {\n\tfont-weight: bold;\n\tborder-top: 5px solid black;\n}\n.section-title {\n\ttext-align: left;\n\tfont-family: 'Open Sans', sans-serif;\n\tborder-bottom: 1px solid #aaa;\n\tmargin-bottom: 10px;\n}\n.product {\n\tmargin: 0 auto;\n\tpadding-top: 100px;\n\twidth: 300px;\n}\n.product-title {\n\tfont-family: 'Open Sans';\n\tfont-weight: 400;\n\tfont-style: italic;\n}\n.product-text {\n\tmargin-bottom: 10px;\n\tfont-family: 'Open Sans';\n\tfont-size: 12px;\n\tfont-weight: 300;\n\tcolor: #aaa;\n}\nimg {\n\twidth: 300px;\n}\n.purchase-btn {\n\tbackground-color: #444;\n\tfont-family: 'Open Sans';\n\tfont-weight: 300;\n\ttext-align: center;\n\tvertical-align: middle;\n\tline-height: 30px;\n\ttext-decoration: none;\n}\n.purchase-btn:hover {\n\tbackground-color: #555;\n}\n.purchase-btn a {\n\tcolor: #fefefe;\n\ttext-decoration: none;\n\tdisplay: block;\n}\n.copyright {\n\tpadding: 10px;\n\twidth: 100%;\n\tcolor: #aaa;\n\tdisplay: block;\n\tfont-family: 'Open Sans';\n\tfont-weight: 300;\n\tfont-size: 12px;\n\tposition: fixed;\n\tbottom: 0;\n\ttext-align: center;\n}", ""]);
 
 // exports
 
@@ -2088,7 +2088,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(195);
+var	fixUrls = __webpack_require__(196);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -2412,7 +2412,7 @@ exports = module.exports = __webpack_require__(31)(false);
 
 
 // module
-exports.push([module.i, ".nav-bar {\n\tpadding-top: 10px;\n\tpadding-bottom: 10px;\n\tborder-bottom: 1px solid #aaa;\n}\n.header {\n\ttext-align: left;\n\tfont-family: 'Open Sans', sans-serif;\n\tfont-weight: bold;\n\tfont-size: 32px;\n\tdisplay: inline-block;\n}\n\n.righty {\n\tfloat: right;\n\tdisplay: inline-block;\n\tfont-family: courier;\n\tmargin-left: 15px;\n}", ""]);
+exports.push([module.i, ".nav-bar {\n\tmargin-left: 25px;\n\tmargin-right: 25px;\n\tpadding-bottom: 15px;\n\tpadding-top: 15px;\n}\n.header {\n\ttext-align: center;\n\tfont-family: 'Open Sans', sans-serif;\n\tfont-weight: bold;\n\tfont-size: 32px;\n\theight: auto;\n}\n\n.righty {\n\tfloat: right;\n\tdisplay: inline-block;\n\tfont-family: courier;\n\tmargin-left: 15px;\n}", ""]);
 
 // exports
 
@@ -9451,11 +9451,11 @@ var _Main = __webpack_require__(191);
 
 var _Main2 = _interopRequireDefault(_Main);
 
-__webpack_require__(194);
-
-__webpack_require__(196);
+__webpack_require__(195);
 
 __webpack_require__(197);
+
+__webpack_require__(198);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -25414,16 +25414,8 @@ var Main = function (_React$Component) {
 			return _react2.default.createElement(
 				'div',
 				null,
-				_react2.default.createElement(
-					'div',
-					null,
-					_react2.default.createElement(_Header2.default, null)
-				),
-				_react2.default.createElement(
-					'div',
-					null,
-					_react2.default.createElement(_ProductContainer2.default, null)
-				)
+				_react2.default.createElement(_Header2.default, null),
+				_react2.default.createElement(_ProductContainer2.default, null)
 			);
 		}
 	}]);
@@ -25470,7 +25462,7 @@ var Header = function (_React$Component) {
 	_createClass(Header, [{
 		key: 'render',
 		value: function render() {
-			var title = 'FAUX POOL';
+			var title = 'faux pool';
 			return _react2.default.createElement(
 				'div',
 				{ className: 'nav-bar' },
@@ -25478,16 +25470,6 @@ var Header = function (_React$Component) {
 					'div',
 					{ className: 'header' },
 					title
-				),
-				_react2.default.createElement(
-					'div',
-					{ className: 'righty' },
-					'About'
-				),
-				_react2.default.createElement(
-					'div',
-					{ className: 'righty' },
-					'Shop'
 				)
 			);
 		}
@@ -25515,6 +25497,10 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _classnames = __webpack_require__(194);
+
+var _classnames2 = _interopRequireDefault(_classnames);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -25527,21 +25513,104 @@ var ProductContainer = function (_React$Component) {
 	_inherits(ProductContainer, _React$Component);
 
 	function ProductContainer() {
+		var _ref;
+
+		var _temp, _this, _ret;
+
 		_classCallCheck(this, ProductContainer);
 
-		return _possibleConstructorReturn(this, (ProductContainer.__proto__ || Object.getPrototypeOf(ProductContainer)).apply(this, arguments));
+		for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+			args[_key] = arguments[_key];
+		}
+
+		return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ProductContainer.__proto__ || Object.getPrototypeOf(ProductContainer)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
+			selectedPage: 'shop'
+		}, _this.handleClick = function (e) {
+			_this.setState({
+				selectedPage: e.target.id
+			});
+		}, _temp), _possibleConstructorReturn(_this, _ret);
 	}
 
 	_createClass(ProductContainer, [{
 		key: 'render',
 		value: function render() {
+			var productPage = _react2.default.createElement(
+				'div',
+				{ className: 'product' },
+				_react2.default.createElement(
+					'div',
+					{ className: 'section-title' },
+					'PRODUCTS'
+				),
+				_react2.default.createElement(
+					'div',
+					{ className: 'img-container' },
+					_react2.default.createElement('img', { src: '/images/sticker.jpg' }),
+					_react2.default.createElement(
+						'div',
+						{ className: 'product-title' },
+						'8.3 or GTFO Sticker'
+					),
+					_react2.default.createElement(
+						'div',
+						{ className: 'product-text' },
+						'Inkjet on weatherproof vinyl. 1.5" x 5.5". Edition of 100.'
+					),
+					_react2.default.createElement(
+						'div',
+						{ className: 'purchase-btn' },
+						_react2.default.createElement(
+							'a',
+							{ href: 'http://fauxpool.bigcartel.com' },
+							'PURCHASE'
+						)
+					)
+				)
+			);
+			var aboutPage = _react2.default.createElement(
+				'div',
+				{ className: 'product' },
+				_react2.default.createElement(
+					'div',
+					{ className: 'section-title' },
+					'INFORMATION'
+				),
+				_react2.default.createElement(
+					'div',
+					{ className: 'img-container' },
+					_react2.default.createElement(
+						'div',
+						{ className: 'product-title' },
+						'Faux Pool is a lifestyle brand based in NYC.'
+					)
+				)
+			);
+			var shopClass = (0, _classnames2.default)('page-container', 'left', { selected: this.state.selectedPage == 'shop' });
+			var aboutClass = (0, _classnames2.default)('page-container', 'left', { selected: this.state.selectedPage == 'about' });
+
 			return _react2.default.createElement(
 				'div',
 				{ className: 'products' },
 				_react2.default.createElement(
 					'div',
-					{ className: 'section-title' },
-					'Products'
+					{ className: 'nav-container' },
+					_react2.default.createElement(
+						'div',
+						{ id: 'shop', className: shopClass, onClick: this.handleClick },
+						'SHOP'
+					),
+					_react2.default.createElement(
+						'div',
+						{ id: 'about', className: aboutClass, onClick: this.handleClick },
+						'ABOUT'
+					)
+				),
+				this.state.selectedPage == 'shop' ? productPage : aboutPage,
+				_react2.default.createElement(
+					'div',
+					{ className: 'copyright' },
+					'\xA9 Faux Pool 2018'
 				)
 			);
 		}
@@ -25554,6 +25623,61 @@ exports.default = ProductContainer;
 
 /***/ }),
 /* 194 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+  Copyright (c) 2016 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
+/* global define */
+
+(function () {
+	'use strict';
+
+	var hasOwn = {}.hasOwnProperty;
+
+	function classNames () {
+		var classes = [];
+
+		for (var i = 0; i < arguments.length; i++) {
+			var arg = arguments[i];
+			if (!arg) continue;
+
+			var argType = typeof arg;
+
+			if (argType === 'string' || argType === 'number') {
+				classes.push(arg);
+			} else if (Array.isArray(arg)) {
+				classes.push(classNames.apply(null, arg));
+			} else if (argType === 'object') {
+				for (var key in arg) {
+					if (hasOwn.call(arg, key) && arg[key]) {
+						classes.push(key);
+					}
+				}
+			}
+		}
+
+		return classes.join(' ');
+	}
+
+	if (typeof module !== 'undefined' && module.exports) {
+		module.exports = classNames;
+	} else if (true) {
+		// register as 'classnames', consistent with npm package name
+		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
+			return classNames;
+		}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	} else {
+		window.classNames = classNames;
+	}
+}());
+
+
+/***/ }),
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -25603,7 +25727,7 @@ if(true) {
 }
 
 /***/ }),
-/* 195 */
+/* 196 */
 /***/ (function(module, exports) {
 
 
@@ -25698,7 +25822,7 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 196 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -25748,7 +25872,7 @@ if(true) {
 }
 
 /***/ }),
-/* 197 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
