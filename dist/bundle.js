@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "630b1bdb49bc92020872"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "6ad34902a072a0548807"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -1934,7 +1934,7 @@ exports = module.exports = __webpack_require__(31)(false);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700);", ""]);
 
 // module
-exports.push([module.i, "body {\n\tbackground-color: #fefefe;\n}\n.main-container {\n\tmargin-right: 20px;\n\tmargin-left: 20px;\n}\n.nav-container {\n\tborder-top: 1px solid black;\n\tmargin: 0 auto;\n\twidth: 300px;\n}\n.page-container {\n\tbackground: none;\n\tpadding-top: 15px;\n\twidth: 50%;\n\tfont-family: 'Open Sans', sans-serif;\n\tdisplay: inline;\n\ttext-align: center;\n}\n.page-container:hover {\n\tfont-weight: bold;\n}\n.right { float: right; }\n.left { float: left; }\n\n.selected {\n\tfont-weight: bold;\n\tborder-top: 5px solid black;\n}\n.section-title {\n\ttext-align: left;\n\tfont-family: 'Open Sans', sans-serif;\n\tborder-bottom: 1px solid #aaa;\n\tmargin-bottom: 10px;\n}\n.product {\n\tmargin: 0 auto;\n\tpadding-top: 100px;\n\twidth: 300px;\n}\n.product-title {\n\tfont-family: 'Open Sans';\n\tfont-weight: 400;\n\tfont-style: italic;\n}\n.product-text {\n\tmargin-bottom: 10px;\n\tfont-family: 'Open Sans';\n\tfont-size: 12px;\n\tfont-weight: 300;\n\tcolor: #aaa;\n}\nimg {\n\twidth: 300px;\n}\n.purchase-btn {\n\tbackground-color: #444;\n\tfont-family: 'Open Sans';\n\tfont-weight: 300;\n\ttext-align: center;\n\tvertical-align: middle;\n\tline-height: 30px;\n\ttext-decoration: none;\n}\n.purchase-btn:hover {\n\tbackground-color: #555;\n}\n.purchase-btn a {\n\tcolor: #fefefe;\n\ttext-decoration: none;\n\tdisplay: block;\n}\n.copyright {\n\tpadding: 10px;\n\twidth: 100%;\n\tcolor: #aaa;\n\tdisplay: block;\n\tfont-family: 'Open Sans';\n\tfont-weight: 300;\n\tfont-size: 12px;\n\tposition: fixed;\n\tbottom: 0;\n\ttext-align: center;\n}", ""]);
+exports.push([module.i, "body {\n\tbackground-color: #fefefe;\n}\n.main-container {\n\tmargin-right: 20px;\n\tmargin-left: 20px;\n}\n.nav-container {\n\tborder-top: 1px solid #323232;\n\tmargin: 0 auto;\n\twidth: 300px;\n}\n.page-container {\n\tbackground: none;\n\tpadding-top: 15px;\n\twidth: 50%;\n\tfont-family: 'Open Sans', sans-serif;\n\tfont-weight: 400;\n\tdisplay: inline;\n\ttext-align: center;\n}\n.page-container:hover {\n\tcursor: pointer;\n\tfont-weight: 600;\n}\n.right { float: right; }\n.left { float: left; }\n\n.selected {\n\tfont-weight: 600;\n\tpadding-top: 10px !important;\n\tborder-top: 5px solid #323232;\n}\n.section-title {\n\ttext-align: left;\n\tfont-family: 'Open Sans', sans-serif;\n\tborder-bottom: 1px solid #aaa;\n\tmargin-bottom: 10px;\n}\n.product {\n\tmargin: 0 auto;\n\tpadding-top: 100px;\n\twidth: 300px;\n}\n.product-title {\n\tfont-family: 'Open Sans';\n\tfont-weight: 400;\n\tfont-style: italic;\n}\n.product-text {\n\tmargin-bottom: 10px;\n\tfont-family: 'Open Sans';\n\tfont-size: 12px;\n\tfont-weight: 300;\n\tcolor: #aaa;\n}\nimg {\n\twidth: 300px;\n}\n.purchase-btn {\n\tbackground-color: #323232;\n\tfont-family: 'Open Sans';\n\tfont-weight: 300;\n\ttext-align: center;\n\tvertical-align: middle;\n\tline-height: 30px;\n\ttext-decoration: none;\n}\n.purchase-btn:hover {\n\tcursor: pointer;\n\tbackground-color: #555;\n}\n.purchase-btn a {\n\tcolor: #fefefe;\n\ttext-decoration: none;\n\tdisplay: block;\n}\n.copyright {\n\tpadding: 10px;\n\twidth: 100%;\n\tcolor: #aaa;\n\tdisplay: block;\n\tfont-family: 'Open Sans';\n\tfont-weight: 300;\n\tfont-size: 12px;\n\tposition: fixed;\n\tbottom: 0;\n\ttext-align: center;\n}", ""]);
 
 // exports
 
@@ -25541,7 +25541,7 @@ var ProductContainer = function (_React$Component) {
 				_react2.default.createElement(
 					'div',
 					{ className: 'section-title' },
-					'PRODUCTS'
+					'PRODUCT'
 				),
 				_react2.default.createElement(
 					'div',
@@ -25610,7 +25610,7 @@ var ProductContainer = function (_React$Component) {
 				_react2.default.createElement(
 					'div',
 					{ className: 'copyright' },
-					'\xA9 Faux Pool 2018'
+					'\xA9 faux fool 2018'
 				)
 			);
 		}
