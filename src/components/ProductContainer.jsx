@@ -13,7 +13,7 @@ class ProductContainer extends React.Component {
 	render() {
 		var productPage = (
 			<div className='product'>
-				<div className='section-title'>PRODUCTS</div>
+				<div className='section-title'>PRODUCT</div>
 				<div className='img-container'>
 					<img src='/images/sticker.jpg'></img>
 					<div className='product-title'>8.3 or GTFO Sticker</div>
@@ -49,7 +49,7 @@ class ProductContainer extends React.Component {
 				</div>
 				{this.state.selectedPage == 'shop' ? productPage : aboutPage}
 				<div className='copyright'>
-					&copy; Faux Pool 2018
+					&copy; faux fool 2018
 				</div>
 			</div>
 		);
