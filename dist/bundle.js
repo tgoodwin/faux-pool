@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "56fa30eb22a388efbc4b"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "8d027ac20065cc7fba08"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -25087,7 +25087,7 @@ var ProductContainer = function (_React$Component) {
 					_react2.default.createElement(
 						'div',
 						{ className: 'img-caption' },
-						'Debris recovery from Great Pacific Trash Vortex'
+						'Debris recovery from the Great Pacific Trash Vortex'
 					),
 					_react2.default.createElement(
 						'div',
