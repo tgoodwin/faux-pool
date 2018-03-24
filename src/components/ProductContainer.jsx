@@ -34,7 +34,7 @@ class ProductContainer extends React.Component {
 				<div className='img-container'>
 				<img src='/images/trash.jpg'></img>
 				<div className='img-caption'>
-					Debris recovery from Great Pacific Trash Vortex
+					Debris recovery from the Great Pacific Trash Vortex
 				</div>
 					<div className='product-title'>
 						Faux Pool is a lifestyle brand based in NYC.
