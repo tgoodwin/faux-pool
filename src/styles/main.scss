@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700');
+@import 'header';
+
+$pageWidth: 300px;
+
+body {
+    background-color: #fefefe;
+}
+.main-container {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.nav-container {
+    border-top: 1px solid #323232;
+    margin: 0 auto;
+    width: 300px;
+    @media only screen and (max-width: 600px) {
+        width: 80%;
+    }
+
+}
+.nav-tab {
+    background: none;
+    padding-top: 15px;
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    display: inline;
+    text-align: center;
+}
+.nav-tab:hover {
+    cursor: pointer;
+    font-weight: 600;
+}
+.right { float: right; }
+.left { float: left; }
+
+.selected {
+    font-weight: 600;
+    padding-top: 10px !important;
+    border-top: 5px solid #323232;
+}
+.section-title {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+.page {
+    margin: 0 auto;
+    padding-top: 100px;
+    width: $pageWidth;
+    img {
+        width: $pageWidth;
+    }
+    a {
+        text-decoration: none;
+    }
+    .img-caption {
+        font-family: 'Open Sans', sans-serif;
+        font-style: none;
+        font-weight: 300;
+        margin-bottom: 15px;
+        font-size: 10px;
+        color: #aaa;
+    }
+    @media only screen and (max-width: 600px) {
+        width: 80%;
+        img {
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+}
+.product-title {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: italic;
+}
+.product-text {
+    margin-bottom: 10px;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 300;
+    color: #aaa;
+}
+.purchase-btn {
+    background-color: #323232;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    text-decoration: none;
+}
+.purchase-btn:hover {
+    cursor: pointer;
+    background-color: #555;
+}
+.purchase-btn a {
+    color: #fefefe;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 100px;
+}
+.copy {
+    color: #aaa;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 12px;
+    margin: 0 auto;
+    text-align: center;
+}

@@ -12,7 +12,7 @@ class ProductContainer extends React.Component {
 	}
 	render() {
 		var productPage = (
-			<div className='product'>
+			<div className='page'>
 				<div className='section-title'>PRODUCT</div>
 				<div className='img-container'>
 					<img src='/images/sticker.jpg'></img>
@@ -29,18 +29,23 @@ class ProductContainer extends React.Component {
 			</div>			
 		);
 		var aboutPage = (
-			<div className='product'>
+			<div className='page'>
 				<div className='section-title'>INFORMATION</div>
 				<div className='img-container'>
+				<img src='/images/trash.jpg'></img>
+				<div className='img-caption'>
+					Debris recovery from Great Pacific Trash Vortex
+				</div>
 					<div className='product-title'>
 						Faux Pool is a lifestyle brand based in NYC.
+						<br/><br/>
 					</div>
 				</div>
+				<div className='section-title'></div>
 			</div>
 		);
-		const shopClass = classNames('page-container', 'left', {selected: this.state.selectedPage == 'shop'});
-		const aboutClass = classNames('page-container', 'left', {selected: this.state.selectedPage == 'about'});
-
+		const shopClass = classNames('nav-tab', 'left', {selected: this.state.selectedPage == 'shop'});
+		const aboutClass = classNames('nav-tab', 'left', {selected: this.state.selectedPage == 'about'});
 		return (
 			<div className='products'>
 				<div className='nav-container'>
@@ -48,8 +53,8 @@ class ProductContainer extends React.Component {
 					<div id='about' className={aboutClass} onClick={this.handleClick}>ABOUT</div>
 				</div>
 				{this.state.selectedPage == 'shop' ? productPage : aboutPage}
-				<div className='copyright'>
-					&copy; faux fool 2018
+				<div className='nav-bar'>
+					<div className='copy'>&copy; {new Date().getFullYear()} faux pool</div>
 				</div>
 			</div>
 		);

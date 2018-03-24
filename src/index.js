@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom';
 import Main from './components/Main.jsx';
 
 // have to import every CSS file here
-import './styles/main.css';
-import './styles/header.css';
-import './styles/post.css';
+import './styles/main.scss';
 
 ReactDOM.render(
     <div>
