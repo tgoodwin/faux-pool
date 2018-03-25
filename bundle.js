@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "8d027ac20065cc7fba08"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "ba76d09ec4e699b65541"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -1934,7 +1934,7 @@ exports = module.exports = __webpack_require__(192)(false);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700);", ""]);
 
 // module
-exports.push([module.i, ".nav-bar {\n  margin-left: 25px;\n  margin-right: 25px;\n  padding-bottom: 15px;\n  padding-top: 15px; }\n\n.header {\n  text-align: center;\n  font-family: 'Open Sans', sans-serif;\n  font-weight: bold;\n  font-size: 32px;\n  height: auto; }\n\n.righty {\n  float: right;\n  display: inline-block;\n  font-family: courier;\n  margin-left: 15px; }\n\nbody {\n  background-color: #fefefe; }\n\n.main-container {\n  margin-right: 20px;\n  margin-left: 20px; }\n\n.nav-container {\n  border-top: 1px solid #323232;\n  margin: 0 auto;\n  width: 300px; }\n  @media only screen and (max-width: 600px) {\n    .nav-container {\n      width: 80%; } }\n\n.nav-tab {\n  background: none;\n  padding-top: 15px;\n  width: 50%;\n  font-family: 'Open Sans', sans-serif;\n  font-weight: 400;\n  display: inline;\n  text-align: center; }\n\n.nav-tab:hover {\n  cursor: pointer;\n  font-weight: 600; }\n\n.right {\n  float: right; }\n\n.left {\n  float: left; }\n\n.selected {\n  font-weight: 600;\n  padding-top: 10px !important;\n  border-top: 5px solid #323232; }\n\n.section-title {\n  text-align: left;\n  font-family: 'Open Sans', sans-serif;\n  border-bottom: 1px solid #aaa;\n  margin-bottom: 10px; }\n\n.page {\n  margin: 0 auto;\n  padding-top: 100px;\n  width: 300px; }\n  .page img {\n    width: 300px; }\n  .page a {\n    text-decoration: none; }\n  .page .img-caption {\n    font-family: 'Open Sans', sans-serif;\n    font-style: none;\n    font-weight: 300;\n    margin-bottom: 15px;\n    font-size: 10px;\n    color: #aaa; }\n  @media only screen and (max-width: 600px) {\n    .page {\n      width: 80%; }\n      .page img {\n        width: 100%;\n        margin: 0 auto; } }\n\n.product-title {\n  font-family: 'Open Sans';\n  font-weight: 400;\n  font-style: italic; }\n\n.product-text {\n  margin-bottom: 10px;\n  font-family: 'Open Sans';\n  font-size: 12px;\n  font-weight: 300;\n  color: #aaa; }\n\n.purchase-btn {\n  background-color: #323232;\n  font-family: 'Open Sans';\n  font-weight: 300;\n  text-align: center;\n  vertical-align: middle;\n  line-height: 30px;\n  text-decoration: none; }\n\n.purchase-btn:hover {\n  cursor: pointer;\n  background-color: #555; }\n\n.purchase-btn a {\n  color: #fefefe;\n  text-decoration: none;\n  display: block;\n  margin-bottom: 100px; }\n\n.copy {\n  color: #aaa;\n  font-family: 'Open Sans';\n  font-weight: 300;\n  font-size: 12px;\n  margin: 0 auto;\n  text-align: center; }\n", ""]);
+exports.push([module.i, ".nav-bar {\n  margin-left: 25px;\n  margin-right: 25px;\n  padding-bottom: 15px;\n  padding-top: 15px; }\n\n.header {\n  text-align: center;\n  font-family: 'Open Sans', sans-serif;\n  font-weight: bold;\n  font-size: 32px;\n  height: auto; }\n\n.righty {\n  float: right;\n  display: inline-block;\n  font-family: courier;\n  margin-left: 15px; }\n\nbody {\n  background-color: #fefefe; }\n\n.main-container {\n  margin-right: 20px;\n  margin-left: 20px; }\n\n.nav-container {\n  border-top: 1px solid #323232;\n  margin: 0 auto;\n  width: 300px; }\n  @media only screen and (max-device-width: 600px) and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {\n    .nav-container {\n      width: 80%;\n      font-size: 15px; } }\n\n.nav-tab {\n  background: none;\n  padding-top: 15px;\n  width: 50%;\n  font-family: 'Open Sans', sans-serif;\n  font-weight: 400;\n  display: inline;\n  text-align: center; }\n\n.nav-tab:hover {\n  cursor: pointer;\n  font-weight: 600; }\n\n.right {\n  float: right; }\n\n.left {\n  float: left; }\n\n.selected {\n  font-weight: 600;\n  padding-top: 10px !important;\n  border-top: 5px solid #323232; }\n\n.section-title {\n  font-size: 15px;\n  text-align: left;\n  font-family: 'Open Sans', sans-serif;\n  border-bottom: 1px solid #aaa;\n  margin-bottom: 10px; }\n\n.page {\n  margin: 0 auto;\n  padding-top: 100px;\n  width: 300px; }\n  .page img {\n    width: 300px; }\n  .page a {\n    text-decoration: none; }\n  .page .img-caption {\n    font-family: 'Open Sans', sans-serif;\n    font-style: none;\n    font-weight: 300;\n    margin-bottom: 15px;\n    font-size: 10px;\n    color: #aaa; }\n  @media only screen and (max-device-width: 600px) and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {\n    .page {\n      width: 80%; }\n      .page img {\n        width: 100%;\n        margin: 0 auto; } }\n\n.product-title {\n  font-family: 'Open Sans';\n  font-weight: 400;\n  font-style: italic; }\n\n.product-text {\n  margin-bottom: 10px;\n  font-family: 'Open Sans';\n  font-size: 12px;\n  font-weight: 300;\n  color: #aaa; }\n\n.purchase-btn {\n  background-color: #323232;\n  font-family: 'Open Sans';\n  font-weight: 300;\n  text-align: center;\n  vertical-align: middle;\n  line-height: 30px;\n  font-size: 15px;\n  text-decoration: none; }\n\n.purchase-btn:hover {\n  cursor: pointer;\n  background-color: #555; }\n\n.purchase-btn a {\n  color: #fefefe;\n  text-decoration: none;\n  display: block;\n  margin-bottom: 100px; }\n\n.copy {\n  color: #aaa;\n  font-family: 'Open Sans';\n  font-weight: 300;\n  font-size: 12px;\n  margin: 0 auto;\n  text-align: center; }\n", ""]);
 
 // exports
 
@@ -25054,7 +25054,7 @@ var ProductContainer = function (_React$Component) {
 					_react2.default.createElement(
 						'div',
 						{ className: 'product-title' },
-						'8.3 or GTFO Sticker'
+						'Music Lover Sticker'
 					),
 					_react2.default.createElement(
 						'div',
@@ -25083,7 +25083,7 @@ var ProductContainer = function (_React$Component) {
 				_react2.default.createElement(
 					'div',
 					{ className: 'img-container' },
-					_react2.default.createElement('img', { src: '/images/trash.jpg' }),
+					_react2.default.createElement('img', { src: '/images/trash.png' }),
 					_react2.default.createElement(
 						'div',
 						{ className: 'img-caption' },
