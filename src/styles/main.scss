@@ -2,6 +2,14 @@
 @import 'header';
 
 $pageWidth: 300px;
+$fontSize: 15px;
+
+@media only screen and (max-device-width: 600px)
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2) {
+    $fontSize: 30px;
+}
 
 body {
     background-color: #fefefe;
@@ -14,8 +22,12 @@ body {
     border-top: 1px solid #323232;
     margin: 0 auto;
     width: 300px;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-device-width: 600px)
+          and (min-device-width: 375px) 
+          and (max-device-width: 667px) 
+          and (-webkit-min-device-pixel-ratio: 2) {
         width: 80%;
+        font-size: $fontSize;
     }
 
 }
@@ -41,6 +53,7 @@ body {
     border-top: 5px solid #323232;
 }
 .section-title {
+    font-size: $fontSize;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     border-bottom: 1px solid #aaa;
@@ -64,7 +77,10 @@ body {
         font-size: 10px;
         color: #aaa;
     }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-device-width: 600px)
+          and (min-device-width: 375px) 
+          and (max-device-width: 667px) 
+          and (-webkit-min-device-pixel-ratio: 2) {
         width: 80%;
         img {
             width: 100%;
@@ -91,6 +107,7 @@ body {
     text-align: center;
     vertical-align: middle;
     line-height: 30px;
+    font-size: $fontSize;
     text-decoration: none;
 }
 .purchase-btn:hover {

@@ -16,7 +16,7 @@ class ProductContainer extends React.Component {
 				<div className='section-title'>PRODUCT</div>
 				<div className='img-container'>
 					<img src='/images/sticker.jpg'></img>
-					<div className='product-title'>8.3 or GTFO Sticker</div>
+					<div className='product-title'>Music Lover Sticker</div>
 					<div className='product-text'>
 						Inkjet on weatherproof vinyl. 1.5" x 5.5". Edition of 100.
 					</div>
@@ -32,7 +32,7 @@ class ProductContainer extends React.Component {
 			<div className='page'>
 				<div className='section-title'>INFORMATION</div>
 				<div className='img-container'>
-				<img src='/images/trash.jpg'></img>
+				<img src='/images/trash.png'></img>
 				<div className='img-caption'>
 					Debris recovery from the Great Pacific Trash Vortex
 				</div>
