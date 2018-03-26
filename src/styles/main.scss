@@ -69,7 +69,6 @@ body {
           and (max-device-width: 667px) 
           and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 36px;
-        border-bottom: 3px solid #323232;
     }
 
 }
@@ -132,6 +131,7 @@ body {
           and (max-device-width: 667px) 
           and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 28px;
+        color: #323232;
     }
 
 }
@@ -194,4 +194,10 @@ body {
 
 .bigger {
     font-size: 12px;
+    @media only screen and (max-device-width: 600px)
+          and (min-device-width: 375px) 
+          and (max-device-width: 667px) 
+          and (-webkit-min-device-pixel-ratio: 2) {
+        font-size: 24px;
+    }
 }
