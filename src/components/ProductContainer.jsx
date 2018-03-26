@@ -16,31 +16,30 @@ class ProductContainer extends React.Component {
 				<div className='section-title'>PRODUCT</div>
 				<div className='img-container'>
 					<img src='/images/sticker.jpg'></img>
-					<div className='product-title'>Music Lover Sticker</div>
-					<div className='product-text'>
-						Inkjet on weatherproof vinyl. 1.5" x 5.5". Edition of 100.
-					</div>
-					<div className='purchase-btn'>
-						<a href="http://fauxpool.bigcartel.com">
-							PURCHASE
-						</a>
-					</div>
+					<img src='/images/flower.jpg'></img>
+				</div>
+				<div className='product-title'>Music Lover Sticker</div>
+				<div className='product-text'>
+					Inkjet on weatherproof vinyl. 1.5" x 5.5". Edition of 100.
+				</div>
+				<div className='purchase-btn'>
+					<a href="http://fauxpool.bigcartel.com">
+						PURCHASE
+					</a>
 				</div>
 			</div>			
 		);
 		var aboutPage = (
 			<div className='page'>
 				<div className='section-title'>INFORMATION</div>
-				<div className='img-container'>
-				<img src='/images/trash.png'></img>
+				<img src='/images/trash.jpg'></img>
 				<div className='img-caption'>
-					Debris recovery from the Great Pacific Trash Vortex
+					Debris recovery from the Great Pacific Trash Vortex <span className='bigger'>|</span> VSCO C1
 				</div>
 					<div className='product-title'>
 						Faux Pool is a lifestyle brand based in NYC.
 						<br/><br/>
 					</div>
-				</div>
 				<div className='section-title'></div>
 			</div>
 		);

@@ -89,6 +89,7 @@ body {
     }
 }
 .product-title {
+    padding-top: 5px;
     font-family: 'Open Sans';
     font-weight: 400;
     font-style: italic;
@@ -127,4 +128,14 @@ body {
     font-size: 12px;
     margin: 0 auto;
     text-align: center;
+}
+
+.img-container {
+    width: auto;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.bigger {
+    font-size: 12px;
 }
