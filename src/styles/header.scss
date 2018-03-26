@@ -1,20 +1,26 @@
 .nav-bar {
-	margin-left: 25px;
-	margin-right: 25px;
-	padding-bottom: 15px;
-	padding-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 .header {
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
-	font-size: 32px;
-	height: auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    @media only screen and (max-device-width: 600px)
+          and (min-device-width: 375px) 
+          and (max-device-width: 667px) 
+          and (-webkit-min-device-pixel-ratio: 2) {
+        font-size: 72px;
+    }
+    height: auto;
 }
 
 .righty {
-	float: right;
-	display: inline-block;
-	font-family: courier;
-	margin-left: 15px;
+    float: right;
+    display: inline-block;
+    font-family: courier;
+    margin-left: 15px;
 }

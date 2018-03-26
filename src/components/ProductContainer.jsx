@@ -33,7 +33,7 @@ class ProductContainer extends React.Component {
 			<div className='page'>
 				<div className='section-title'>INFORMATION</div>
 				<img src='/images/trash.jpg'></img>
-				<div className='img-caption'>
+				<div className='product-text'>
 					Debris recovery from the Great Pacific Trash Vortex <span className='bigger'>|</span> VSCO C1
 				</div>
 					<div className='product-title'>

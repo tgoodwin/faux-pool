@@ -39,6 +39,12 @@ body {
     font-weight: 400;
     display: inline;
     text-align: center;
+    @media only screen and (max-device-width: 600px)
+          and (min-device-width: 375px) 
+          and (max-device-width: 667px) 
+          and (-webkit-min-device-pixel-ratio: 2) {
+        font-size: 40px;
+    }
 }
 .nav-tab:hover {
     cursor: pointer;
@@ -58,6 +64,14 @@ body {
     font-family: 'Open Sans', sans-serif;
     border-bottom: 1px solid #aaa;
     margin-bottom: 10px;
+    @media only screen and (max-device-width: 600px)
+          and (min-device-width: 375px) 
+          and (max-device-width: 667px) 
+          and (-webkit-min-device-pixel-ratio: 2) {
+        font-size: 36px;
+        border-bottom: 3px solid #323232;
+    }
+
 }
 .page {
     margin: 0 auto;
@@ -76,6 +90,13 @@ body {
         margin-bottom: 15px;
         font-size: 10px;
         color: #aaa;
+        @media only screen and (max-device-width: 600px)
+              and (min-device-width: 375px) 
+              and (max-device-width: 667px) 
+              and (-webkit-min-device-pixel-ratio: 2) {
+            font-size: 24px;
+        }
+
     }
     @media only screen and (max-device-width: 600px)
           and (min-device-width: 375px) 
@@ -93,6 +114,12 @@ body {
     font-family: 'Open Sans';
     font-weight: 400;
     font-style: italic;
+    @media only screen and (max-device-width: 600px)
+          and (min-device-width: 375px) 
+          and (max-device-width: 667px) 
+          and (-webkit-min-device-pixel-ratio: 2) {
+        font-size: 36px;
+    }
 }
 .product-text {
     margin-bottom: 10px;
@@ -100,6 +127,13 @@ body {
     font-size: 12px;
     font-weight: 300;
     color: #aaa;
+    @media only screen and (max-device-width: 600px)
+          and (min-device-width: 375px) 
+          and (max-device-width: 667px) 
+          and (-webkit-min-device-pixel-ratio: 2) {
+        font-size: 28px;
+    }
+
 }
 .purchase-btn {
     background-color: #323232;
@@ -110,6 +144,15 @@ body {
     line-height: 30px;
     font-size: $fontSize;
     text-decoration: none;
+    margin-bottom: 100px;
+    @media only screen and (max-device-width: 600px)
+          and (min-device-width: 375px) 
+          and (max-device-width: 667px) 
+          and (-webkit-min-device-pixel-ratio: 2) {
+        line-height: 80px;
+        font-size: 44px;
+        margin-bottom: 50px;
+    }
 }
 .purchase-btn:hover {
     cursor: pointer;
@@ -119,7 +162,6 @@ body {
     color: #fefefe;
     text-decoration: none;
     display: block;
-    margin-bottom: 100px;
 }
 .copy {
     color: #aaa;
@@ -128,12 +170,26 @@ body {
     font-size: 12px;
     margin: 0 auto;
     text-align: center;
+    @media only screen and (max-device-width: 600px)
+          and (min-device-width: 375px) 
+          and (max-device-width: 667px) 
+          and (-webkit-min-device-pixel-ratio: 2) {
+        font-size: 24px;
+    }
+
 }
 
 .img-container {
     width: auto;
     height: 400px;
     overflow-y: scroll;
+    @media only screen and (max-device-width: 600px)
+          and (min-device-width: 375px) 
+          and (max-device-width: 667px) 
+          and (-webkit-min-device-pixel-ratio: 2) {
+        height: 80%;
+        overflow-y: scroll;
+    }
 }
 
 .bigger {
